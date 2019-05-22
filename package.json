@@ -1,0 +1,25 @@
+{
+  "name": "ETN-WS",
+  "version": "1.0.0",
+  "description": "WebService :: Express Transfer Network",
+  "main": "index.js",
+  "repository": {},
+  "author": "Ananna Srabonty",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^5.0.1",
+    "koa": "^2.4.1",
+    "koa-body": "^4.0.4",
+    "koa-router": "^7.3.0",
+    "koa2-cors": "^2.0.6",
+    "memory-cache": "^0.2.0",
+    "moment": "^2.22.2",
+    "mongoose": "^5.4.16"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "startdev": "node index.js",
+    "test": "jest --forceExit"
+  },
+  "devDependencies": {}
+}
