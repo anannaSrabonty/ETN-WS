@@ -5,9 +5,11 @@
   "main": "index.js",
   "repository": {},
   "author": "Ananna Srabonty",
+  "homepage": "https://anannaSrabonty.github.io/ETN-WS",
   "dependencies": {
     "axios": "^0.18.0",
     "dotenv": "^5.0.1",
+    "gh-pages": "^2.0.1",
     "koa": "^2.4.1",
     "koa-body": "^4.0.4",
     "koa-router": "^7.3.0",
@@ -19,7 +21,10 @@
   "scripts": {
     "start": "node index.js",
     "startdev": "node index.js",
-    "test": "jest --forceExit"
+    "test": "jest --forceExit",
+    "build": "npm start",
+    "predeploy": "npm install",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {}
 }
